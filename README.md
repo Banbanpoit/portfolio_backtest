@@ -1,8 +1,10 @@
+#### Introduction
+This project implements a portfolio construction strategy designed to systematically select and allocate stocks within the S&P 500 universe. The approach combines rigorous financial screening criteria with historical backtesting to assess real-world performance.
+
 #### Rebalancing
+Portfolio rebalancing occurs after the second week of March, once more than 50% of US companies have reported annual results.
+This timing introduces a look-ahead bias, as filters rely on finalized statements after the reporting period.
 
-More then 50% of Us companies have reported after the second week of March.
-
-So we will rebalance at this point but it will still introduce a look ahaead biais
 #### Topline filters
 
 | Filter              | Description                                                                               |
